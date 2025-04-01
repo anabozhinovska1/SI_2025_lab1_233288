@@ -1,0 +1,28 @@
+
+Git komandi
+
+mkdir SI_2025_lab1_233288 - kreiranje direktorium
+cd SI_2025_lab1_233288 - vleguvanje vo direktorium
+git init - kreiranje lokalen repozitorium
+git remote add origin https://github.com/anabozhinovska1/SI_2025_lab1_233288- povrzuvanje so remote repozitorium
+echo "Ana Bozhinovska, Index: 233288" > README.md k- kreiranje na file so sodrzina 
+git add README.md - dodavanje na stage 
+git commit -m "Initial commit" - dodavanje vo lokalno repo
+git add SI2025Lab1Main.java - kreiranje datoteka
+git commit -m "Add starter code" - dodavanje vo lokalno repo
+git push -u origin master (koristev token za da gi povrzam) - povrzuvanje so remote repo
+
+
+Del 2:
+git fetch origin - prevzemanje na promenite od remote repozitorium (napravivme 9 taskovi i za 3 od niv granki)
+git checkout 1-remove-a-task-by-name - promena na gramma
+nano si_2025_lab1 - go implementirav metodot
+git add . - dodavanje na stage
+git commit -m “RemoveTaskByName imported”  - dodavanje vo repo
+Git push origin 1-remove-a-task-by-name - dodavanje vo remote repo
+—- istoto go povtoriv I za drugite 2 taska I site gi pullnav, no samo 2 mergnav na GitHub—
+Git checkout master - promena na master grana
+Git merge 1-remove-a-task-by-name - spojuvanje 
+Git push origin master - se sluci konflikt zatoa sto lokalniot repozitorium ne e sinhroniziran so remote 
+git pull --no-rebase origin master - povlekuvanje na najnovite promeni od remote repo do master 
+

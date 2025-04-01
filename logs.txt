@@ -1,0 +1,15 @@
+*   00227ab (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of https://github.com/anabozhinovska1/SI_2025_lab1_233288 Conflicty
+|\  
+| *   9134f0c Merge pull request #11 from anabozhinovska1/3-list-tasks-sorted-by-name
+| |\  
+| | * da8029a (origin/3-list-tasks-sorted-by-name, 3-list-tasks-sorted-by-name) TasksSortedByName implemented
+| * |   70716d3 Merge pull request #12 from anabozhinovska1/4-sort-tasks-by-priority
+| |\ \  
+| | |/  
+| |/|   
+| | * d3a7179 (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) SortTaskByPriority Implemented
+| |/  
+* / 9eb87a1 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) RemoveTaskByName implemented
+|/  
+* f295766 Add started code
+* 1e98d71 Initial commit
