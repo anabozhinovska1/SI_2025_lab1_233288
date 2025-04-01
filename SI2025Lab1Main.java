@@ -77,11 +77,13 @@ class TaskManager {
     // 3. List tasks sorted by name
     public void sortTasksByName() {
         // TODO: Implement sorting logic
+	tasks.sort(Comparator.comparing(Task::getName));
     }
 
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
         // TODO: Implement sorting by priority logic
+	tasks.sort(Comparator.comparing(Task::getPriority));
     }
 
     // 5. Filter tasks by category
