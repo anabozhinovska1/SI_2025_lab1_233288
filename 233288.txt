@@ -25,4 +25,20 @@ Git checkout master - promena na master grana
 Git merge 1-remove-a-task-by-name - spojuvanje 
 Git push origin master - se sluci konflikt zatoa sto lokalniot repozitorium ne e sinhroniziran so remote 
 git pull --no-rebase origin master - povlekuvanje na najnovite promeni od remote repo do master 
+git log --oneline --graph --all
+Nano logs.txt - vnatre ja staviv sodrzinata od git log --oneline --graph --all
+Nano 233288.txt - ja staviv sodrzinata od ovoj file
+Git add .
+Git commit -m “final commit”
 
+
+Del 3
+
+Napraviv fork
+git clone https://github.com/anabozhinovska1/SI_2025_lab1_151020 - kloniranje na forkot
+cd SI_2025_lab1_151020
+echo "Ana Bozhinovska" > 233288.txt
+git add 233288.txt
+git commit -m "Add file"
+git push origin master
+Na kraj napraviv pull request so mojot indeks ko ime
